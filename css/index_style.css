@@ -5,48 +5,6 @@
   padding: 0px;
   font-family: serif;
 }
-nav	 {
-	position: sticky;
-	top: 0px;
-	background-color: #000000;
-	background: linear-gradient(180deg, #ffffff15, #000000, #ff590c17);
-	padding: 0px;
-	margin: 0px;
-	z-index: 3;
-	border-bottom: 1px solid rgba(8, 8, 8, 0.884);
-}
-nav ul	{
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-	background-color: #000000;
-	background: linear-gradient(180deg,#ffffff0a 5%, #000000 70%, #ff590c9c 120%);
-}
-nav li	{
-	float: left;
-	border-right: 1px solid rgba(255, 255, 255, 0.733);
-	background: #222222;
-}
-nav li a	{
-	display: block;
-	color: rgb(255, 255, 255);
-	background-position-y: #000000;
-	background: linear-gradient(180deg, #ffffff8a, #000000, #ff590c2d);
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-family: serif;
-	font-size: 18px;
-}
-nav li a:hover:not(.active)	{
-	background-color: rgba(31, 31, 31, 0.582);
-	box-shadow: 5px 5px 25px rgba(255, 115, 0, 0.822) inset;
-}
-.active {
-	background: #000000;
-	background: linear-gradient(180deg, #ffffffaf, #ff7301, #66380091);
-}
 main  {
 	background: linear-gradient(180deg, #ffffff, #777777a8, #020202d0);
 }
@@ -146,48 +104,21 @@ main  {
 #info-cards  {
 	margin: 0;
 	display: grid;
-	grid-template-columns: 700px 900px;
+	grid-template-columns: 500px 500px 500px;
 	gap: 10px;
 }
-/* president */
-#president  {
-	background-color: #000000;
-	color: white;
-}
-#president > h1  {
-	text-align: center;
-	margin:30px 0px 10px;
-	background-color: #000000;
-	color: white;
-	font-family: Aguafina Script;
-	text-decoration: underline;
-}
-#president > h2  {
-	text-align: center;
-	float: left;
-	background-color: #000000;
-	color: white;
-}
-#president > h3  {
-	text-align: center;
-	margin: 0px 50px 30px 0px;
-	background-color: #000000;
-	color: white;
-}
-#president > p  {
-	position: relative;
-	top: 0;
-	left: 40px;
-	color: white;
-	margin: 0px 40px 40px 10px;
-}
-#president > img  {
-	position: relative;
-	top: 20px;
-	left: 20px;
-	height: 260px;
-	width: 180px;
-	float: left;
+.staff-card  {
 	border: 2px solid black;
-	border-radius: 80px;
+}
+.staff-card > h2 {
+	text-align: right;
+	margin-right: 20px;
+}
+#owner-img  {
+	width: 160px;
+	height: 200px;
+	margin: 10px;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 40px;
+	float: left;
 }

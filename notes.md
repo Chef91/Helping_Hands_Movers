@@ -11,3 +11,15 @@ This website is for Helping Hands Moving services. The objective is to create a 
 
 [#flyer-sample.html] - this is a random file to design something. IGNORE.
 
+// 9-22-2024
+- Adding information to blue strip on banner
+- Creted css folder + added header_style.css and index_style.css
+- Created header_style.css to clean up the css files.
+- Started to setup Staff section.
+- Placeholder images set
+
+  Plans:
+  + Find more google fonts
+  + Animate the blue ribbon on the top banner (left to right scroll)
+  + Complete about us/staff section
+  + Responsive Web Design
