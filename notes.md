@@ -23,3 +23,8 @@ This website is for Helping Hands Moving services. The objective is to create a 
   + Animate the blue ribbon on the top banner (left to right scroll)
   + Complete about us/staff section
   + Responsive Web Design
+
+  // 9-30-2024
+  - Adjusted headers to proper heirarchy.
+  - Created intro section
+  - Created Coverage Area
